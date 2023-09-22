@@ -15,8 +15,19 @@ while contador < quantos:
 print(insatisfeito)   
 print(satisfeito)
 print(nao_responder)
+# Porcentagem = (parte/total) * 100
+
+total = quantos
+porcentagem_insatisfeito = (insatisfeito / total) * 100
+porcentagem_satisfeito = (satisfeito / total ) * 100
+porcentagem_nao_respondeu = (nao_responder / total) * 100
 
 print("A porcentagem é: ")
-total = quantos
+print()
+print(f'{porcentagem_insatisfeito}% estão insatisfeitos')
+print(f'{porcentagem_satisfeito}% estão satisfeitos')
+print(f'{porcentagem_nao_respondeu}% não responderam')
+
+
 
 
