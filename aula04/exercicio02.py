@@ -17,3 +17,6 @@ print(satisfeito)
 print(nao_responder)
 
 print("A porcentagem é: ")
+total = quantos
+
+
