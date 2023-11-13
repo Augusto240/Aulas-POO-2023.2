@@ -8,7 +8,7 @@ class Cliente:
     def nome(self):
         return self.__nome
 
-    @nome.setter
+    @nome.setter 
     def setNome(self, nome):
         self.__nome = nome
     
